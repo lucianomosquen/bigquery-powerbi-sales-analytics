@@ -32,6 +32,7 @@ desde las consultas en BigQuery hasta un dashboard limpio y listo para tomar dec
 
 📂 Estructura del repositorio
 
+```plaintext
 Ecommerce-Sales-Analytics-Dashboard/
 │
 ├── sql/
@@ -58,6 +59,7 @@ Ecommerce-Sales-Analytics-Dashboard/
     ├── top_products.png
     ├── map.png
     └── channels.png
+```
 
 
 ---
