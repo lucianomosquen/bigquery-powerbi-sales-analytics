@@ -141,3 +141,35 @@ Me gusta trabajar con datos, automatizar tareas, crear dashboards claros y segui
 LinkedIn: www.linkedin.com/in/lucianomosquen
 
 Email: luciano.mosquen@gmail.com
+
+
+## 📊 Vista previa del dashboard
+
+### 🔹 Dashboard completo  
+![Dashboard completo](images/dashboard_full.png)
+
+---
+
+### 🔹 KPIs principales  
+![KPIs](images/kpis.png)
+
+---
+
+### 🔹 Revenue vs Sesiones por Mes  
+![Line Chart](images/line_chart.png)
+
+---
+
+### 🔹 Top Productos por Revenue  
+![Top Productos](images/top_products.png)
+
+---
+
+### 🔹 Revenue por país (USD)  
+![Mapa](images/map.png)
+
+---
+
+### 🔹 Revenue por Canal de Adquisición (USD)  
+![Canales](images/channels.png)
+
