@@ -132,16 +132,6 @@ Porque resume varias cosas que quiero mostrar como analista de datos:
 
 ---
 
-👋 Sobre mí
-
-Soy Luciano Mosquén, Data Analyst en transición hacia Data Science.
-
-Me gusta trabajar con datos, automatizar tareas, crear dashboards claros y seguir aprendiendo herramientas nuevas.
-
-LinkedIn: www.linkedin.com/in/lucianomosquen
-
-Email: luciano.mosquen@gmail.com
-
 
 ## 📊 Vista previa del dashboard
 
@@ -173,3 +163,13 @@ Email: luciano.mosquen@gmail.com
 ### 🔹 Revenue por Canal de Adquisición (USD)  
 ![Canales](images/channels.png)
 
+---
+
+## 👋 Sobre mí
+
+Soy Luciano Mosquén, Data Analyst en transición hacia Data Science.
+
+Me gusta trabajar con datos, automatizar tareas, crear dashboards claros y seguir aprendiendo herramientas nuevas.
+
+**LinkedIn:** https://www.linkedin.com/in/lucianomosquen  
+**Email:** luciano.mosquen@gmail.com
