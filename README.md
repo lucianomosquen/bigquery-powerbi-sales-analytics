@@ -12,21 +12,20 @@ desde las consultas en BigQuery hasta un dashboard limpio y listo para tomar dec
 
 🔍 Resumen rápido
 
-• Dataset: Google Analytics Sample (BigQuery)
-• Objetivo: analizar performance de un e-commerce (revenue, sesiones, productos, países, canales)
-• Herramientas: BigQuery + SQL, Power BI, DAX, Power Query
-• Resultado: dashboard ejecutivo con KPIs, evolución temporal, top productos, mapa y canales de adquisición.
-
----
+- Dataset: Google Analytics Sample (BigQuery)
+- Objetivo: analizar performance de un e-commerce (revenue, sesiones, productos, países, canales)
+- Herramientas: BigQuery + SQL, Power BI, DAX, Power Query
+- Resultado: dashboard ejecutivo con KPIs, evolución temporal, top productos, mapa y canales de adquisición
 
 🧠 Qué practico en este proyecto
 
-• Escritura de consultas SQL en BigQuery sobre datos reales
-• Construcción de tablas analíticas (staging) y exportación a CSV
-• Modelado en Power BI sin relaciones complejas (cada tabla alimenta sus propios visuals)
-• Creación de medidas DAX para KPIs y métricas derivadas
-• Diseño de un dashboard claro, legible y con criterio visual
-• Documentación del proyecto para portfolio (este README)
+- Escritura de consultas SQL en BigQuery sobre datos reales
+- Construcción de tablas analíticas (staging) y exportación a CSV
+- Modelado en Power BI sin relaciones complejas (cada tabla alimenta sus propios visuals)
+- Creación de medidas DAX para KPIs y métricas derivadas
+- Diseño de un dashboard claro, legible y con criterio visual
+- Documentación del proyecto para portfolio (este README)
+
 
 ---
 
