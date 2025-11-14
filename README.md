@@ -32,14 +32,33 @@ desde las consultas en BigQuery hasta un dashboard limpio y listo para tomar dec
 
 📂 Estructura del repositorio
 
-sql/
-   Consultas SQL usadas en BigQuery para generar las tablas analíticas.
-data/
-   CSV exportados desde BigQuery listos para importar en Power BI.
-pbix/
-   Archivo Ecommerce_Sales_Analytics.pbix con el dashboard final.
-images/
-   Capturas del dashboard completo y de las secciones principales.
+Ecommerce-Sales-Analytics-Dashboard/
+│
+├── sql/
+│   ├── 01_daily_revenue.sql
+│   ├── 02_product_performance.sql
+│   ├── 03_customer_segments.sql
+│   ├── 04_geo_revenue.sql
+│   └── 05_channel_performance.sql
+│
+├── data/
+│   ├── daily_revenue.csv
+│   ├── product_performance.csv
+│   ├── customer_segments.csv
+│   ├── geo_revenue.csv
+│   └── channel_performance.csv
+│
+├── pbix/
+│   └── Ecommerce_Sales_Analytics.pbix
+│
+└── images/
+    ├── dashboard_full.png
+    ├── kpis.png
+    ├── line_chart.png
+    ├── top_products.png
+    ├── map.png
+    └── channels.png
+
 
 ---
 
