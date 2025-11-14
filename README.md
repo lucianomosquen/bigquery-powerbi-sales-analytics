@@ -125,10 +125,10 @@ de dónde viene el revenue, qué productos rinden mejor, qué países aportan m�
 
 Porque resume varias cosas que quiero mostrar como analista de datos:
 
-• Puedo trabajar con datos reales en BigQuery usando SQL.
-• Entiendo cómo pasar de “datos crudos” a tablas analíticas útiles.
-• Sé modelar y construir un dashboard en Power BI que se vea profesional.
-• Me interesa tanto la parte técnica como el diseño y la comunicación de resultados.
+- Puedo trabajar con datos reales en BigQuery usando SQL.
+- Entiendo cómo pasar de “datos crudos” a tablas analíticas útiles.
+- Sé modelar y construir un dashboard en Power BI que se vea profesional.
+- Me interesa tanto la parte técnica como el diseño y la comunicación de resultados.
 
 ---
 
