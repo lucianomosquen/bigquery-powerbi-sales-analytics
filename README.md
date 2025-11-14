@@ -2,105 +2,122 @@
 📊 E-commerce Sales Analytics Dashboard
 Power BI + Google BigQuery + SQL
 
-Este proyecto presenta un dashboard profesional construido con datos reales del Google Analytics Sample (BigQuery). Incluye métricas clave de revenue, sesiones, transacciones, performance por productos, análisis geográfico y canales de adquisición.
+Proyecto de práctica y portfolio donde conecto tres cosas que me interesan mucho:
+datos reales, SQL en BigQuery y visualización en Power BI.
+
+La idea no es solo “hacer un gráfico”, sino mostrar un flujo end-to-end:
+desde las consultas en BigQuery hasta un dashboard limpio y listo para tomar decisiones.
 
 ---
 
-OBJETIVO DEL PROYECTO
-Desarrollar un análisis end-to-end aplicando:
-• SQL en Google BigQuery
-• ETL y transformación de datos reales
-• Modelado en Power BI
-• Medidas DAX
-• Visualizaciones profesionales
-• Storytelling analítico
+🔍 Resumen rápido
+
+• Dataset: Google Analytics Sample (BigQuery)
+• Objetivo: analizar performance de un e-commerce (revenue, sesiones, productos, países, canales)
+• Herramientas: BigQuery + SQL, Power BI, DAX, Power Query
+• Resultado: dashboard ejecutivo con KPIs, evolución temporal, top productos, mapa y canales de adquisición.
 
 ---
 
-PIPELINE DEL PROYECTO
-1. Extracción de Datos (BigQuery)
-   Se generaron datasets analíticos:
-   • Revenue diario
-   • Product Performance
-   • Segmentación RFM
-   • Revenue por país
-   • Performance por canal
+🧠 Qué practico en este proyecto
 
-2. Transformación y Exportación (CSV)
-   Cada consulta se exportó como CSV para modelar en Power BI.
-
-3. Modelado en Power BI
-   • Tablas en modo import (staging)
-   • Medidas DAX personalizadas
-   • Sin relaciones entre tablas (independencia analítica)
-
-4. Construcción del Dashboard
-   Visualizaciones ejecutivas y layout profesional.
+• Escritura de consultas SQL en BigQuery sobre datos reales
+• Construcción de tablas analíticas (staging) y exportación a CSV
+• Modelado en Power BI sin relaciones complejas (cada tabla alimenta sus propios visuals)
+• Creación de medidas DAX para KPIs y métricas derivadas
+• Diseño de un dashboard claro, legible y con criterio visual
+• Documentación del proyecto para portfolio (este README)
 
 ---
 
-VISUALIZACIONES INCLUIDAS
-• KPIs ejecutivos:
-  – Revenue total
+📂 Estructura del repositorio
+
+sql/
+   Consultas SQL usadas en BigQuery para generar las tablas analíticas.
+data/
+   CSV exportados desde BigQuery listos para importar en Power BI.
+pbix/
+   Archivo Ecommerce_Sales_Analytics.pbix con el dashboard final.
+images/
+   Capturas del dashboard completo y de las secciones principales.
+
+---
+
+📈 Qué muestra el dashboard
+
+• KPIs ejecutivos
+  – Revenue total (USD)
   – Total de sesiones
-  – Total transacciones
+  – Total de transacciones
   – Ticket promedio
 
-• Evolución temporal (Revenue vs Sesiones)
+• Evolución en el tiempo
+  – Gráfico de líneas con Revenue vs Sesiones por mes
 
-• Top Productos por Revenue
+• Productos
+  – Top productos por revenue
 
-• Funnel de conversión (Sesiones → Transacciones → Revenue)
+• Funnel de conversión
+  – Sesiones → Transacciones → Revenue
+  – Tabla manual para el embudo + medida DAX para el valor de cada etapa
 
-• Mapa geográfico de Revenue por País
+• Geografía
+  – Mapa de revenue por país, con burbujas y tooltips (revenue, sesiones, transacciones)
 
-• Revenue por Canal de Adquisición
+• Canales de adquisición
+  – Revenue por canal (Direct, Organic Search, Referral, etc.)
 
----
-
-ESTRUCTURA DEL REPOSITORIO
-sql/
-   Contiene todas las consultas SQL utilizadas.
-data/
-   Archivos CSV exportados desde BigQuery.
-pbix/
-   Archivo final del dashboard en Power BI.
-images/
-   Capturas del dashboard (completo y por secciones).
+La idea es que alguien pueda ver el dashboard y entender rápido:
+de dónde viene el revenue, qué productos rinden mejor, qué países aportan más y qué canales funcionan mejor.
 
 ---
 
-INSIGHTS DESTACADOS
-• Identificación de los principales países generadores de revenue.
-• Ranking claro de los productos más rentables.
-• Evolución temporal del negocio con picos de tráfico y ventas.
-• Diferencias entre canales de adquisición y su aporte real al revenue.
-• Medición de eficiencia mediante ticket promedio y funnel.
+⚙ Tecnologías y conceptos usados
+
+• BigQuery
+  – Lectura de tablas de Google Analytics Sample
+  – Uso de funciones de fecha, agregaciones, CTEs
+  – Generación de tablas analíticas para:
+    · Revenue diario
+    · Product performance
+    · Segmentos RFM
+    · Geo (país)
+    · Canales de adquisición
+
+• Power BI
+  – Importación de CSV como tablas de staging
+  – Medidas DAX para KPIs y métricas derivadas
+  – Visualizaciones (KPIs, líneas, barras, funnel, mapa)
+  – Diseño con foco en claridad antes que en “efectos especiales”
 
 ---
 
-TECNOLOGÍAS UTILIZADAS
-• Google BigQuery
-• SQL (joins, CTE, agregaciones, UNNEST, funciones de fecha)
-• Power BI Desktop
-• DAX
-• Power Query
-• Visualización de datos
+🧩 Cómo usar este proyecto
+
+1. Clonar o descargar el repositorio.
+2. Abrir el archivo pbix/Ecommerce_Sales_Analytics.pbix en Power BI Desktop.
+3. Explorar las páginas, medidas DAX y tablas.
+4. Revisar las consultas en la carpeta sql/ si querés ver cómo se armaron los datasets en BigQuery.
 
 ---
 
-RESULTADO FINAL
-Dashboard profesional y funcional, ideal para análisis ejecutivo y para demostrar dominio de:
-• BigQuery + SQL
-• Modelado de datos
-• DAX
-• Visualización clara y estética en Power BI
-• Proyectos end-to-end
+🎯 Por qué lo incluyo en mi portfolio
+
+Porque resume varias cosas que quiero mostrar como analista de datos:
+
+• Puedo trabajar con datos reales en BigQuery usando SQL.
+• Entiendo cómo pasar de “datos crudos” a tablas analíticas útiles.
+• Sé modelar y construir un dashboard en Power BI que se vea profesional.
+• Me interesa tanto la parte técnica como el diseño y la comunicación de resultados.
 
 ---
 
-CONTACTO
-Luciano Mosquén – Data Analyst
-LinkedIn: (agregar enlace)
-Email: (agregar email)
+👋 Sobre mí
 
+Soy Luciano Mosquén, Data Analyst en transición hacia Data Science.
+
+Me gusta trabajar con datos, automatizar tareas, crear dashboards claros y seguir aprendiendo herramientas nuevas.
+
+LinkedIn: www.linkedin.com/in/lucianomosquen
+
+Email: luciano.mosquen@gmail.com
