@@ -33,32 +33,30 @@ desde las consultas en BigQuery hasta un dashboard limpio y listo para tomar dec
 📂 Estructura del repositorio
 
 Ecommerce-Sales-Analytics-Dashboard/
-│
-├── sql/
-│   ├── 01_daily_revenue.sql
-│   ├── 02_product_performance.sql
-│   ├── 03_customer_segments.sql
-│   ├── 04_geo_revenue.sql
-│   └── 05_channel_performance.sql
-│
-├── data/
-│   ├── daily_revenue.csv
-│   ├── product_performance.csv
-│   ├── customer_segments.csv
-│   ├── geo_revenue.csv
-│   └── channel_performance.csv
-│
-├── pbix/
-│   └── Ecommerce_Sales_Analytics.pbix
-│
-└── images/
-    ├── dashboard_full.png
-    ├── kpis.png
-    ├── line_chart.png
-    ├── top_products.png
-    ├── map.png
-    └── channels.png
+  📂 sql/
+    • 01_daily_revenue.sql
+    • 02_product_performance.sql
+    • 03_customer_segments.sql
+    • 04_geo_revenue.sql
+    • 05_channel_performance.sql
 
+  📂 data/
+    • daily_revenue.csv
+    • product_performance.csv
+    • customer_segments.csv
+    • geo_revenue.csv
+    • channel_performance.csv
+
+  📂 pbix/
+    • Ecommerce_Sales_Analytics.pbix
+
+  📂 images/
+    • dashboard_full.png
+    • kpis.png
+    • line_chart.png
+    • top_products.png
+    • map.png
+    • channels.png
 
 ---
 
