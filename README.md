@@ -167,7 +167,7 @@ Porque resume varias cosas que quiero mostrar como analista de datos:
 
 ## 👋 Sobre mí
 
-Soy Luciano Mosquén, Data Analyst en transición hacia Data Science.
+Soy Luciano Mosquén, Senior Analyst con foco en negocio y datos. Me interesa el cruce entre analytics, performance y toma de decisiones en empresas digitales.
 
 Me gusta trabajar con datos, automatizar tareas, crear dashboards claros y seguir aprendiendo herramientas nuevas.
 
